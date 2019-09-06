@@ -1,0 +1,70 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Steven",
+      "apellido": "rojas",
+      "direccion": "cra 123",
+      "email": "steven8rojas@gmail.com",
+      "password": "123456",
+      "esAdmin": false,
+      "id": 1
+    }
+  ],
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "Spider-Man 2",
+      "descripcion": "es una película de ciencia ficción y acción, basada en la novela gráfica de este personaje, dirigida por Sam Raimi. Es el tercer largometraje de la saga Spider-Man, fue estrenado el 4 de mayo de 2007.",
+      "actores": [
+        "Tobey Maguire",
+        "Kirsten Dunst",
+        "Rosemary Harris",
+        "James Franco"
+      ],
+      "director": "Sam Raimi",
+      "costo": "1.20",
+      "unidadesDisponibles": "3"
+    },
+    {
+      "id": 2,
+      "titulo": "Batman: El caballero oscuro",
+      "descripcion": "es una película de superhéroes británico-estadounidense de 2008",
+      "actores": [
+        "Christian Bale",
+        "Michael Caine",
+        "Heath Ledger",
+        "Morgan Freeman"
+      ],
+      "director": "Christopher Nolan",
+      "costo": 2.5,
+      "unidadesDisponibles": 2
+    },
+    {
+      "id": 3,
+      "titulo": "Avengers: Endgame",
+      "descripcion": "es una película de superhéroes estadounidense de 2019 basada en el grupo los Vengadores de Marvel Comics, producida por Marvel Studios ",
+      "actores": [
+        "Chris Evans",
+        "Mark Ruffalo",
+        "Scarlett Johansson",
+        "Paul Rudd"
+      ],
+      "director": "Anthony y Joe Russo",
+      "costo": 3.5,
+      "unidadesDisponibles": 0
+    },
+    {
+      "id": 4,
+      "titulo": "Superman",
+      "descripcion": "Superman es una película de superhéroes de 1978 dirigida por Richard Donner, protagonizada por Christopher Reeve como Superman, basada en el personaje de DC Comics del mismo nombre. ",
+      "actores": [
+        "Marlon Brando",
+        "Gene Hackman",
+        "Ned Beatty"
+      ],
+      "director": "Richard Donner",
+      "costo": 1.25,
+      "unidadesDisponibles": 2
+    }
+  ]
+}

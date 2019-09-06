@@ -1,0 +1,27 @@
+<div class="container">
+    <div *ngFor="let pelicula of peliculas">
+
+        <div class="">
+            <div class="tarjeta" (click)=reservar(pelicula)>
+                <div class="tituloPelicula">
+                    <span class=tituloTarjeta> {{pelicula.titulo}} </span>
+                    <p> Director: {{pelicula.director}}</p>
+                    <span> Valor: {{pelicula.costo | currency}}</span>
+                    <span style="text-align: right"> Disponibles: {{pelicula.unidadesDisponibles}}</span>
+
+                </div>
+
+                <span class=" textoTarjeta"> {{pelicula.descripcion}}</span>
+
+                <br>
+                <div class="actores">
+                    <h6> Actores:</h6>
+                    <div *ngFor=" let actor of  pelicula.actores">
+                        <span class="badge badge-primary">{{actor}}</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
